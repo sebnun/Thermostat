@@ -10,6 +10,8 @@
 		9EB556231CA5C10800A59DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EB556221CA5C10800A59DAA /* AppDelegate.swift */; };
 		9EB556251CA5C10800A59DAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EB556241CA5C10800A59DAA /* Assets.xcassets */; };
 		9EB556281CA5C10800A59DAA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EB556261CA5C10800A59DAA /* MainMenu.xib */; };
+		9ED9A1FC1CA5EE5D0023DF29 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED9A1FA1CA5EE5D0023DF29 /* MainWindowController.swift */; };
+		9ED9A1FD1CA5EE5D0023DF29 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ED9A1FB1CA5EE5D0023DF29 /* MainWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		9EB556241CA5C10800A59DAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EB556271CA5C10800A59DAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		9EB556291CA5C10800A59DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ED9A1FA1CA5EE5D0023DF29 /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		9ED9A1FB1CA5EE5D0023DF29 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				9EB556221CA5C10800A59DAA /* AppDelegate.swift */,
+				9ED9A1FA1CA5EE5D0023DF29 /* MainWindowController.swift */,
+				9ED9A1FB1CA5EE5D0023DF29 /* MainWindowController.xib */,
 				9EB556241CA5C10800A59DAA /* Assets.xcassets */,
 				9EB556261CA5C10800A59DAA /* MainMenu.xib */,
 				9EB556291CA5C10800A59DAA /* Info.plist */,
@@ -117,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EB556251CA5C10800A59DAA /* Assets.xcassets in Resources */,
+				9ED9A1FD1CA5EE5D0023DF29 /* MainWindowController.xib in Resources */,
 				9EB556281CA5C10800A59DAA /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9ED9A1FC1CA5EE5D0023DF29 /* MainWindowController.swift in Sources */,
 				9EB556231CA5C10800A59DAA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +279,7 @@
 				9EB5562E1CA5C10800A59DAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
